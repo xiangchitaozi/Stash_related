@@ -1,0 +1,22 @@
+name: Podcast覆写
+desc: 对Apple podcast及相关网站规则进行重写，允许访问部分不可见播客
+
+rules:
+  - DOMAIN-SUFFIX,podcasts.apple.com,Proxy
+  - DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,play.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,xp.apple.com,Proxy
+  - DOMAIN-SUFFIX,buzzsprout.com,Proxy
+  - DOMAIN-SUFFIX,search.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,bag.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,amp-api.podcast.apple.com,Proxy
+  - DOMAIN-SUFFIX,blobstore.apple.com,Proxy
+  - DOMAIN-SUFFIX,itsliveradio.apple.com,Proxy
+  - DOMAIN-SUFFIX,aodp-ssl.apple.com,Proxy
+  - DOMAIN-SUFFIX,video-ssl.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,mvod.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,hls-amt.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,audio-ssl.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,streamingaudio.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,amazonaws.com,Proxy
+  - DOMAIN-SUFFIX,audio.itunes.apple.com,Proxy
