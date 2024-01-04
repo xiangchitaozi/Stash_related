@@ -1,0 +1,10 @@
+name: 无忧行
+desc: 对无忧行及相关网站规则进行重写，允许访问部分不可见播客
+
+rules:
+  - DOMAIN-SUFFIX,cmpassport.com,Proxy
+  - DOMAIN-SUFFIX,jegotrip.com.cn,Proxy
+  - DOMAIN-SUFFIX,umeng.com,Proxy
+  - DOMAIN-SUFFIX,analysis.tratao.com,Proxy
+  - DOMAIN-SUFFIX,icloud-content.com,Proxy
+  - DOMAIN-SUFFIX,wannos.127.net,Proxy
