@@ -1,35 +1,6 @@
 name: Podcast覆写
 desc: 对Apple podcast及相关网站规则进行重写，允许访问部分不可见播客
 
-rules: #!replace
-  - DOMAIN-SUFFIX,podcasts.apple.com,Proxy
-  - DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,Proxy
-  - DOMAIN-SUFFIX,play.itunes.apple.com,Proxy
-  - DOMAIN-SUFFIX,xp.apple.com,Proxy
-  - DOMAIN-SUFFIX,buzzsprout.com,Proxy
-  - DOMAIN-SUFFIX,search.itunes.apple.com,Proxy
-  - DOMAIN-SUFFIX,bag.itunes.apple.com,Proxy
-  - DOMAIN-SUFFIX,amp-api.podcast.apple.com,Proxy
-  - DOMAIN-SUFFIX,blobstore.apple.com,Proxy
-  - DOMAIN-SUFFIX,itsliveradio.apple.com,Proxy
-  - DOMAIN-SUFFIX,aodp-ssl.apple.com,Proxy
-  - DOMAIN-SUFFIX,video-ssl.itunes.apple.com,Proxy
-  - DOMAIN-SUFFIX,mvod.itunes.apple.com,Proxy
-  - DOMAIN-SUFFIX,hls-amt.itunes.apple.com,Proxy
-  - DOMAIN-SUFFIX,audio-ssl.itunes.apple.com,Proxy
-  - DOMAIN-SUFFIX,streamingaudio.itunes.apple.com,Proxy
-  - DOMAIN-SUFFIX,amazonaws.com,Proxy
-  - DOMAIN-SUFFIX,audio.itunes.apple.com,Proxy
-  - RULE-SET,applications,DIRECT
-  - DOMAIN,clash.razord.top,DIRECT
-  - DOMAIN,yacd.haishan.me,DIRECT
-  - RULE-SET,private,DIRECT
-  - RULE-SET,reject,REJECT
-  - RULE-SET,tld-not-cn,PROXY
-  - RULE-SET,gfw,PROXY
-  - RULE-SET,telegramcidr,PROXY
-  - MATCH,DIRECT
-
 proxy-groups: #!replace
   - name: 🔯代理模式
     type: select
@@ -136,3 +107,32 @@ rule-providers: #!replace
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
     path: ./ruleset/applications.yaml
     interval: 86400
+
+rules: #!replace
+  - DOMAIN-SUFFIX,podcasts.apple.com,Proxy
+  - DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,play.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,xp.apple.com,Proxy
+  - DOMAIN-SUFFIX,buzzsprout.com,Proxy
+  - DOMAIN-SUFFIX,search.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,bag.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,amp-api.podcast.apple.com,Proxy
+  - DOMAIN-SUFFIX,blobstore.apple.com,Proxy
+  - DOMAIN-SUFFIX,itsliveradio.apple.com,Proxy
+  - DOMAIN-SUFFIX,aodp-ssl.apple.com,Proxy
+  - DOMAIN-SUFFIX,video-ssl.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,mvod.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,hls-amt.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,audio-ssl.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,streamingaudio.itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,amazonaws.com,Proxy
+  - DOMAIN-SUFFIX,audio.itunes.apple.com,Proxy
+  - RULE-SET,applications,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,tld-not-cn,PROXY
+  - RULE-SET,gfw,PROXY
+  - RULE-SET,telegramcidr,PROXY
+  - MATCH,DIRECT
