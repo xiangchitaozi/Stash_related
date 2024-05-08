@@ -39,7 +39,7 @@ proxy-groups: #!replace
 
   - name: 🔯手动选择
     type: select
-    include-all-proxies: true
+    include-all: true
 
   - name: PROXY
     type: url-test
