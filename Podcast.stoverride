@@ -37,6 +37,10 @@ proxy-groups: #!replace
        - PROXY
     include-all-proxies: true
 
+  - name: 🔯手动选择
+    type: select
+    include-all-proxies: true
+
   - name: PROXY
     type: url-test
     include-all: true # 引用所有 proxies & proxy-providers
