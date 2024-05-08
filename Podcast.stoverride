@@ -16,7 +16,7 @@ proxy-groups: #!replace
     type: url-test
     include-all: true # 引用所有 proxies & proxy-providers
 
-rule-providers: #!replace
+rule-providers: 
   reject:
     type: http
     behavior: domain
@@ -108,7 +108,7 @@ rule-providers: #!replace
     path: ./ruleset/applications.yaml
     interval: 86400
 
-rules: #!replace
+rules: 
   - DOMAIN-SUFFIX,podcasts.apple.com,Proxy
   - DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,Proxy
   - DOMAIN-SUFFIX,play.itunes.apple.com,Proxy
