@@ -1,6 +1,6 @@
 name: Podcast覆写
 desc: 对Apple podcast及相关网站规则进行重写，允许访问部分不可见播客
-
+category: "General"
 rules: 
   - DOMAIN-SUFFIX,podcasts.apple.com,Proxy
   - DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,Proxy
