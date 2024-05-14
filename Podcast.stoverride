@@ -4,21 +4,21 @@ category: "General"
 icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
 
 rules: 
-  - DOMAIN-SUFFIX,podcasts.apple.com,自动选择
-  - DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,自动选择
-  - DOMAIN-SUFFIX,play.itunes.apple.com,自动选择
-  - DOMAIN-SUFFIX,xp.apple.com,自动选择
-  - DOMAIN-SUFFIX,buzzsprout.com,自动选择
-  - DOMAIN-SUFFIX,search.itunes.apple.com,自动选择
-  - DOMAIN-SUFFIX,bag.itunes.apple.com,自动选择
-  - DOMAIN-SUFFIX,amp-api.podcast.apple.com,自动选择
-  - DOMAIN-SUFFIX,blobstore.apple.com,自动选择
-  - DOMAIN-SUFFIX,itsliveradio.apple.com,自动选择
-  - DOMAIN-SUFFIX,aodp-ssl.apple.com,自动选择
-  - DOMAIN-SUFFIX,video-ssl.itunes.apple.com,自动选择
-  - DOMAIN-SUFFIX,mvod.itunes.apple.com,自动选择
-  - DOMAIN-SUFFIX,hls-amt.itunes.apple.com,自动选择
-  - DOMAIN-SUFFIX,audio-ssl.itunes.apple.com,自动选择
-  - DOMAIN-SUFFIX,streamingaudio.itunes.apple.com,自动选择
-  - DOMAIN-SUFFIX,amazonaws.com,自动选择
-  - DOMAIN-SUFFIX,audio.itunes.apple.com,自动选择
+  - DOMAIN-SUFFIX,podcasts.apple.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,play.itunes.apple.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,xp.apple.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,buzzsprout.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,search.itunes.apple.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,bag.itunes.apple.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,amp-api.podcast.apple.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,blobstore.apple.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,itsliveradio.apple.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,aodp-ssl.apple.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,video-ssl.itunes.apple.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,mvod.itunes.apple.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,hls-amt.itunes.apple.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,audio-ssl.itunes.apple.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,streamingaudio.itunes.apple.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,amazonaws.com,龙猫云 - TotoroCloud
+  - DOMAIN-SUFFIX,audio.itunes.apple.com,龙猫云 - TotoroCloud
