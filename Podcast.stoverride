@@ -3,7 +3,7 @@ desc: 对Apple podcast及相关网站规则进行重写，允许访问部分不�
 category: "General"
 icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
 
-rules: 
+prepend-rules:
   - DOMAIN-SUFFIX,podcasts.apple.com,龙猫云 - TotoroCloud
   - DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,龙猫云 - TotoroCloud
   - DOMAIN-SUFFIX,play.itunes.apple.com,龙猫云 - TotoroCloud
