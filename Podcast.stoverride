@@ -3,22 +3,27 @@ desc: 对Apple podcast及相关网站规则进行重写，允许访问部分不�
 category: "General"
 icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
 
-prepend-rules:
-  - DOMAIN-SUFFIX,podcasts.apple.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,play.itunes.apple.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,xp.apple.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,buzzsprout.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,search.itunes.apple.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,bag.itunes.apple.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,amp-api.podcast.apple.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,blobstore.apple.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,itsliveradio.apple.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,aodp-ssl.apple.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,video-ssl.itunes.apple.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,mvod.itunes.apple.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,hls-amt.itunes.apple.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,audio-ssl.itunes.apple.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,streamingaudio.itunes.apple.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,amazonaws.com,龙猫云 - TotoroCloud
-  - DOMAIN-SUFFIX,audio.itunes.apple.com,龙猫云 - TotoroCloud
+proxy-groups:
+  - name: PROXY
+    type: url-test
+    include-all: true # 引用所有 proxies & proxy-providers
+
+   rules: 
+   - DOMAIN-SUFFIX,podcasts.apple.com,PROXY
+   - DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,PROXY
+   - DOMAIN-SUFFIX,play.itunes.apple.com,PROXY 
+   - DOMAIN-SUFFIX,xp.apple.com,PROXY
+   - DOMAIN-SUFFIX,buzzsprout.com,PROXY
+   - DOMAIN-SUFFIX,search.itunes.apple.com,PROXY
+   - DOMAIN-SUFFIX,bag.itunes.apple.com,PROXY
+   - DOMAIN-SUFFIX,amp-api.podcast.apple.com,PROXY
+   - DOMAIN-SUFFIX,blobstore.apple.com,PROXY
+   - DOMAIN-SUFFIX,itsliveradio.apple.com,PROXY
+   - DOMAIN-SUFFIX,aodp-ssl.apple.com,PROXY
+   - DOMAIN-SUFFIX,video-ssl.itunes.apple.com,PROXY
+   - DOMAIN-SUFFIX,mvod.itunes.apple.com,PROXY
+   - DOMAIN-SUFFIX,hls-amt.itunes.apple.com,PROXY
+   - DOMAIN-SUFFIX,audio-ssl.itunes.apple.com,PROXY 
+   - DOMAIN-SUFFIX,streamingaudio.itunes.apple.com,PROXY 
+   - DOMAIN-SUFFIX,amazonaws.com,PROXY
+   - DOMAIN-SUFFIX,audio.itunes.apple.com,PROXY
