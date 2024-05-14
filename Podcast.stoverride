@@ -1,6 +1,8 @@
 name: Podcast覆写
 desc: 对Apple podcast及相关网站规则进行重写，允许访问部分不可见播客
 category: "General"
+icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
+
 rules: 
   - DOMAIN-SUFFIX,podcasts.apple.com,自动选择
   - DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,自动选择
